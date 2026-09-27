@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+**/node_modules/
+venv/
+**/venv/
+
+# Build & Dist
+dist/
+**/dist/
+
+# Python Cache & Databases
+__pycache__/
+**/__pycache__/
+*.pyc
+*.db
+*.sqlite
+.pytest_cache/
+**/.pytest_cache/
+
+# Environment Secrets & Logs
+.env
+**/.env
+.DS_Store
+*.log

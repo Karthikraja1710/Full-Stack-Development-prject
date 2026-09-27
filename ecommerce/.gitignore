@@ -1,0 +1,22 @@
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Python & Backend
+backend/venv/
+backend/deps/
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/.env
+
+# Database & OS
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
+Thumbs.db
